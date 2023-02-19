@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: inline-block;
+    }
+    header{
+        background-color: black;
+        height: 15vh;
+        color: white;
+    }
+    .container1{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.739);
+        color: whitesmoke;
+    }
+    .box1{
+        background-color: turquoise;
+        height: 90vh;
+
+    }
+    .box2{
+        background-color: yellowgreen;
+        height: 90vh;
+    }
+    li{
+        padding: 10px;
+        margin: 5px;
+    }
+    footer{
+        background-color: crimson;
+    }
+    ul{
+        text-align: start;
+        color: whitesmoke;
+    }
+    p{
+        text-align: start;
+        font-size: 25px;
+        padding: 30px;
+    }
+    .container{
+        display: flex;
+    }
+    .nav{
+        align-self:center;
+    }
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="image">
+                <img src="TCS-1.jpg">
+            </div>
+            <div class="compName">
+                <p>TATA Motors</p>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container1">
+        <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero ab nostrum eaque accusantium animi natus dolor. Ipsam, vitae saepe veniam veritatis explicabo quasi voluptas eaque autem ut, laborum quis?</div>
+        <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias impedit quibusdam mollitia nisi facilis alias libero ducimus ad tempore omnis, molestiae debitis assumenda delectus rerum ut saepe! Natus, inventore corporis?</div>
+    </div>
+    <footer>This website hosted by &copy;TCS</footer>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+.container{
+    background-color: pink;
+    color: red;
+    border-style: solid;
+    border-color: red;
+}
+.nevigationBar{
+    background-color: blue;
+    color: white;
+    height: 200px;
+    background-image: url("tcs.png");
+    background-position: center; 
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+body{
+    /* background-image: url("tcs.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom; */
+    /* background-color: lightblue; */
+    background: lightblue url("tcs.png") center;
+    background-size: 150px;
+    background-attachment: fixed;
+    color: rgb(250, 0, 0);
+}

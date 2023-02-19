@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 100vh;
+        }
+        img{
+            border: 6px solid black;
+            /* transform:translate(40px, 50px); */
+            /* transform: rotate(10deg); */
+            /* transform: scale(1, 1.03); */
+            /* transform: skew(10deg, 40deg); */
+            /* transform:rotateZ(45deg) */
+            width: 450px;
+            transition-property: width;
+            transition-duration: 2s;
+            /* color: brown; */
+            transition-timing-function: step-end;
+
+        }
+        img:hover{
+            width:560px;
+            /* color: blue; */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="groot.jpg" alt="Image">
+    </div>
+</body>
+</html>

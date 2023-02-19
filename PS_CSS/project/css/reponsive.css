@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {  
+    body{
+        background-color: lightblue;
+    }    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}

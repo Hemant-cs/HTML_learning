@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch5PS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position: sticky;
+            top:0;
+        }
+        .black{
+            background-color: black;
+            height: 10vh;
+            width: 98vw;
+            padding: 1vw;
+            z-index: 5;
+
+        }
+        .black ul li{
+            display: inline;
+            color : white;
+            font-size: 2vw;
+            padding: 0 13px;
+        }
+        .second{
+            background-color: brown;
+            display: inline-block;
+            height: 60vh;
+            width: 100vw;
+            position: relative;
+            z-index: 3;
+        }
+        .third{
+            background-color: chocolate;
+            display: inline-block;
+            height: 60vh;
+            width: 100vw;
+        }
+        footer{
+
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+        .second ul li{
+            list-style: square inside url("download\ \(1\).png");
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="black">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Our Product</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="second">Lorem, ipsum dolor.
+        <ul><br>list of family
+            <li>Father(Head of family)</li>
+            <li>Mother</li>
+            <li>Sister</li>
+            <li>Brother</li>
+            <li>younger brother</li>
+        </ul>
+    </div>
+    <div class="third">Lorem ipsum dolor sit amet.</div>
+    <footer>This website Hosted by &copy;TCS</footer>
+    
+</body>
+</html>

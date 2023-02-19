@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            height: 2px;
+            width: 100%;
+            background-color: red;
+            /* width: 0vw; */
+            transition-property: width;
+            transition-duration:2s;
+            transition-timing-function: ease-in-out;
+
+
+            /* animation: progressbar 2s ease-in-out ; */
+        }
+        /* @keyframes progressbar {
+            0%{
+                width:0vw;
+            }
+            50%{
+                width: 40vw;
+            }
+            80%{
+                width: 70vw;
+            }
+            100%{
+                width: 100vw;
+                visibility: hidden;
+            }
+        } */
+        @keyframes rotateImg {  
+            from{
+                transform: rotate(0deg);
+            } 
+            to{
+                transform: rotate(360deg);
+            }
+
+        }
+        /* .rotate{
+            animation: rotateImg 3s ease-in infinite;
+            background-color: red;
+            width: 25px
+        } */
+        @keyframes slider {
+            0%{
+                transform:translate(0vw);
+            }
+            100%{
+                transform:translate(-100vw);
+            }
+            
+        }
+        @keyframes slider1 {
+            0%{
+                transform:translate(10vw);
+            }
+            100%{
+                transform:translate(-92vw);
+            }
+            
+        }
+        @keyframes slider2 {
+            0%{
+                transform:translate(-185vw);
+            }
+            100%{
+                transform:translate(-300vw);
+            }
+            
+        }
+        .slider{
+            display: flex;
+            margin: auto;
+            height: 600px;  
+            overflow: hidden;
+            /* animation: slider 6s ease-in  infinite; */
+        }
+        img{
+            /* display: block; */
+            margin: auto;
+            /* display: flex; */
+        }
+        .img{
+            transform: translate(0vw);
+            /* animation: slider 6s forwardss  infinite; */
+        }
+        .img1{
+            transform: translate(-200vw);
+            animation: slider1 6s forwards  infinite;
+        }
+        .img2{
+            transform: translate(200vw);
+            animation: slider2 6s forwards  infinite;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <main>
+        <!-- <div class="rotate"><img src="images.png" alt=""></div> -->
+        <div class="slider">
+            <img class = "img" src="nature.jpg" alt="img">
+            <img class="img1" src="nature1.jpg" alt="img1">
+            <img class = "img2" src="nature2.jpg" alt="img2">
+        </div>
+
+
+    </main>
+    
+</body>
+</html

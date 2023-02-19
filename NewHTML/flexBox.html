@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+        }
+
+        li {
+            display: inline;
+            padding: 2vw;
+            color: white;
+        }
+
+        ul p {
+            color: white;
+        }  
+        .box2{
+            display: inline-flex;
+            flex-direction: row-reverse;
+        } 
+        .box1{
+            background-color: pink;
+            padding: 3vw;
+
+        }
+        footer{
+            background-color: red;
+            color:turquoise;
+            text-align: center;
+        }
+        .image{
+            border: red solid;
+            max-width: 100%;
+            /* width: 300px; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="TCSlogo.jpg" alt="TCS logo">
+                <div class="search">
+                <input type="text" Placeholder="Search Bar">
+                </div>
+                <div class="navbar">
+                    <li>Home</li>
+                    <li>Orders</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="image"><img src="MS Image.png" alt="Image"></div>
+    <div class="container"><br>
+        <br><p>About the Product</p><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus asperiores, ea vitae temporibus optio
+        architecto similique reiciendis quia alias suscipit. Dicta cum eligendi provident quia! Placeat excepturi nam
+        velit animi.
+        <div class="box2">
+            <img src="groot.jpg" alt="img">
+            <div class="box1">price for this image is 24$ Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Illo, voluptas tempora. Fuga porro, atque eaque doloremque asperiores nesciunt in, cumque expedita
+                repellat modi nemo ex pariatur quam fugit ratione deserunt.</div>
+        </div>
+    </div>
+    <footer>
+        This website Hosted by &copy;TCS
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2</title>
+    <style>
+        p{
+            /* color:rgb(200,98,76);  RGB value of color*/
+            /* color: #ff7180; Hex value of color */
+            /* color: hsl(8, 90%, 60%); HSL value of color */
+            /* color:hsla(9, 40%, 30%, 0.35); here A stands for alpha it's define opacity */
+            /* color:rgba(30, 10, 80, 1); same as HSLA */
+            color:salmon;
+            /* background-color:red; */
+            /* background-repeat: repeat; it will repeat all direction */
+            /* background-repeat: repeat-x; it will repeat only x axis */
+            /* background-repeat: repeat-y; it will repect only on y axis */
+            background-repeat: no-repeat; /*it will not repect in any direaction */
+            height: 70vh;
+            /* background-size: cover; it will cover whole container and image will distord */
+            /* background-size: contain; it will try to fit image in your container without distord your image */
+            /* background-size: auto; it will show image within container with out zoom */
+            /* background-size: 90vw; it will set your image width */
+            /* background-size:90vw 65vh; it will adjust the image according to given 90vw is the value of width of image and 65vh is the value of height of image */
+            /* background-position: left bottom; it will send image to left bottom */
+            /* background-position: center center; it will send the image center of both(height and width) */
+            /* background-position: 100% 30%; the first value is width and second value is for height */
+            /* background-position: left 10% top 90%; you can also define the value of movement */
+
+        }
+        .container{ 
+            width: 100vw;
+            border: 5px solid red;
+            }
+        body{
+            background-color: black;    
+        }
+        header{
+            background-attachment: fixed;
+        }
+        .img{
+            width: 30vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id = "image" src="images.png" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit aperiam eaque impedit assumenda fugit debitis dolor, labore, magni ad iure delectus dicta. Quos vero harum quae necessitatibus ullam itaque distinctio?</p>
+        <div class="container">
+            <img id = "img" src="MS Image.png"alt="img">
+        </div>
+    </header>
+    
+</body>
+</html>
